@@ -5,8 +5,7 @@ import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import os
-nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
-from nltk.tokenize import word_tokenize
+nltk.download('popular')
 
 ps = PorterStemmer()
 
